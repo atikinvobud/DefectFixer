@@ -16,7 +16,7 @@ public class DefectEntity
     public PriorityEntity? priorityEntity { get; set; }
     public ProjectEntity? projectEntity { get; set; }
     public UserEntity? author { get; set; }
-    public UserEntity? engenner { get; set; }
+    public UserEntity? engeneer { get; set; }
     public List<AplicationsEntity> aplicationsEntities { get; set; } = new List<AplicationsEntity>();
     public List<CommentEntity> commentEntities { get; set; } = new List<CommentEntity>();
     public List<HistoryEntity> historyEntities { get; set; } = new List<HistoryEntity>();
