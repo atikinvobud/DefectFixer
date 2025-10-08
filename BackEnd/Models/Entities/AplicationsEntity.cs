@@ -6,6 +6,7 @@ public class AplicationsEntity
     public required int DefectId { get; set; }
     public required int UploadedById { get; set; }
     public required string FileName { get; set; }
+    public required string ContentType { get; set; }
     public required DateTime UploadedAt { get; set; }
     public required string MongoPictureId { get; set; }
     public UserEntity? user { get; set; }
